@@ -51,3 +51,10 @@ The Account page stores a delivery profile locally; it is not an authenticated c
 Expanded catalog with manufacturer photography from Logitech and PlayStation alongside the original DummyJSON sample catalog. Manufacturer source URLs are recorded per item in `database/catalog.json`. Prices and stock are sample data for the internship project, not retailer quotations. Re-seeding preserves existing stock quantities.
 
 Account tabs now target the actual profile form; labels and keyboard tab navigation are wired. Featured collection tabs filter products, category navigation provides direct links, and the catalog supports search, brand/category filters, price sorting and pagination. All shared pages use the retail design system in `css/retail.css`.
+
+## Customer accounts
+Email/password registration, sign-in and password recovery use Supabase Auth. Each profile, wishlist and browsing history is stored in `public.profiles` and protected by `auth.uid()` RLS. Signed-in orders have a server-verified `user_id`; customers can only read their own order history. Local cart caches are isolated by user ID, and guest checkout remains available.
+
+Apply `database/auth.sql` once after the initial schema. Deploy the updated `store-api` function with JWT verification enabled. Set the Supabase Auth Site URL and allowed redirect URL to `https://technest-store-xydb.vercel.app/account.html`. Public registrations require a working email delivery provider for confirmation and password recovery. Supabase's default email service is restricted; configure custom SMTP before opening registrations to other email addresses.
+
+The browser client is vendored from the official `@supabase/supabase-js` 2.57.4 UMD distribution (MIT), so sign-in does not depend on a third-party CDN at runtime. No service-role secret is included in the website.

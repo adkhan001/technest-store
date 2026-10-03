@@ -5,7 +5,8 @@ window.TNBackend={
  gatewayKey:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV1eG9veXR6anBrbW9zcXpiZ3JtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMTQ4MjIsImV4cCI6MjEwNjU5MDgyMn0.NOuYZAQGtajgcXW9IrtV2UJrjHqGnv_Ax0t8RDSoa3o',
  connected:false,
  async request(body){
-  const response=await fetch(this.url+'/functions/v1/store-api',{method:'POST',headers:{'Content-Type':'application/json',apikey:this.gatewayKey,Authorization:'Bearer '+this.gatewayKey},body:JSON.stringify(body),signal:AbortSignal.timeout(20000)});
+  await window.TNAuth?.ready;const token=window.TNAuth?.session?.access_token;
+  const response=await fetch(this.url+'/functions/v1/store-api',{method:'POST',headers:{'Content-Type':'application/json',apikey:this.gatewayKey,Authorization:'Bearer '+this.gatewayKey,...(token?{'x-user-token':token}:{})},body:JSON.stringify(body),signal:AbortSignal.timeout(20000)});
   const result=await response.json();if(!response.ok)throw new Error(result.error||'Unable to reach the store');return result;
  },
  async catalog(){

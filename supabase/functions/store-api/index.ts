@@ -2,7 +2,7 @@ import { createClient } from 'npm:@supabase/supabase-js@2.57.4';
 const allowed=new Set(['https://technest-store-xydb.vercel.app','http://localhost:8000','http://127.0.0.1:8000']);
 Deno.serve(async(req:Request)=>{
  const origin=req.headers.get('origin')||'';
- const cors={'Access-Control-Allow-Origin':allowed.has(origin)?origin:'https://technest-store-xydb.vercel.app','Access-Control-Allow-Headers':'authorization, apikey, content-type','Access-Control-Allow-Methods':'POST, OPTIONS','Vary':'Origin'};
+ const cors={'Access-Control-Allow-Origin':allowed.has(origin)?origin:'https://technest-store-xydb.vercel.app','Access-Control-Allow-Headers':'authorization, apikey, content-type, x-user-token','Access-Control-Allow-Methods':'POST, OPTIONS','Vary':'Origin'};
  const reply=(body:unknown,status=200)=>new Response(JSON.stringify(body),{status,headers:{...cors,'Content-Type':'application/json','Cache-Control':'no-store'}});
  if(req.method==='OPTIONS')return new Response('ok',{headers:cors});
  if(req.method!=='POST')return reply({error:'Method not allowed'},405);
@@ -13,6 +13,7 @@ Deno.serve(async(req:Request)=>{
   const text=await req.text();if(text.length>24000)return reply({error:'Request too large'},413);
   const b=JSON.parse(text);const email=(x:unknown)=>typeof x==='string'&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(x)&&x.length<=254;
   if(b.action==='checkout'){
+   let userId:string|null=null;const userToken=req.headers.get('x-user-token');if(userToken){const {data,error}=await db.auth.getUser(userToken);if(error||!data.user)return reply({error:'Your session expired. Sign in again.'},401);userId=data.user.id;}
    const c=b.customer||{};
    for(const key of ['first','last','email','phone','address','city','state','zip'])if(typeof c[key]!=='string'||!c[key].trim()||c[key].length>300)return reply({error:'Complete your delivery details'},400);
    if(!email(c.email))return reply({error:'Enter a valid email'},400);
@@ -21,8 +22,8 @@ Deno.serve(async(req:Request)=>{
    clean.email=clean.email.toLowerCase();
    const {count,error:rateError}=await db.from('orders').select('id',{count:'exact',head:true}).eq('customer->>email',clean.email).gte('created_at',new Date(Date.now()-3600000).toISOString());
    if(rateError)throw rateError;if((count||0)>=8)return reply({error:'Too many orders. Please try later.'},429);
-   const {data,error}=await db.rpc('place_store_order',{payload:{customer:clean,items:b.items,coupon:b.coupon,delivery:b.delivery}});
-   if(error)return reply({error:error.message},400);return reply({order:data});
+   const {data,error}=await db.rpc('place_store_order',{payload:{user_id:userId,customer:clean,items:b.items,coupon:b.coupon,delivery:b.delivery}});
+   if(error)return reply({error:error.message},400);if(userId){const details=Object.fromEntries(['first','last','phone','address','city','state','zip'].map(k=>[k,clean[k]]));await db.from('profiles').upsert({id:userId,details,updated_at:new Date().toISOString()},{onConflict:'id'});}return reply({order:data});
   }
   if(b.action==='track'){
    if(typeof b.reference!=='string'||!/^TN-[A-F0-9]{12}$/.test(b.reference)||typeof b.token!=='string'||!/^[a-f0-9-]{36}$/.test(b.token))return reply({error:'Order reference and tracking key required'},400);
