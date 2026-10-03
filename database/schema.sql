@@ -52,3 +52,7 @@ begin
 end $$;
 revoke all on function public.place_store_order(jsonb) from public,anon,authenticated;
 grant execute on function public.place_store_order(jsonb) to service_role;
+
+create policy "Backend access only" on public.orders for all to anon,authenticated using(false) with check(false);
+create policy "Backend access only" on public.contact_messages for all to anon,authenticated using(false) with check(false);
+create policy "Backend access only" on public.newsletter_subscribers for all to anon,authenticated using(false) with check(false);
