@@ -8,7 +8,7 @@ create table if not exists private.store_admins (
 );
 alter table private.store_admins enable row level security;
 revoke all on private.store_admins from public,anon,authenticated;
-insert into private.store_admins(email) values('sunduszafar38@gmail.com') on conflict do nothing;
+insert into private.store_admins(email) values('sunduszaffar9@gmail.com') on conflict do nothing;
 create or replace function private.is_store_admin() returns boolean
 language sql stable security definer set search_path='' as $$
  select exists(select 1 from auth.users u join private.store_admins a on a.email=lower(u.email)

@@ -1,7 +1,8 @@
 -- Execute as database owner in a transaction. All fixtures and changes roll back.
 begin;
+update private.store_admins set email='admin-permission-test@example.com' where email='sunduszaffar9@gmail.com';
 insert into auth.users(id,email,email_confirmed_at,raw_app_meta_data,raw_user_meta_data)
-values('ecf2faf9-699a-44da-884a-a90ed0f01b01','sunduszafar38@gmail.com',now(),'{}','{}');
+values('ecf2faf9-699a-44da-884a-a90ed0f01b01','admin-permission-test@example.com',now(),'{}','{}');
 select set_config('request.jwt.claim.sub','ecf2faf9-699a-44da-884a-a90ed0f01b01',true);
 set local role authenticated;
 do $$begin
