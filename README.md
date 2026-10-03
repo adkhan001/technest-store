@@ -45,3 +45,9 @@ The frontend uses a public publishable key for the catalog and a legacy public a
 6. Open Supabase Table Editor to show the `orders` record and product table.
 
 The Account page stores a delivery profile locally; it is not an authenticated customer account. Cart and wishlist persistence are local browser features. Order status reflects the database and does not simulate shipping progress.
+
+
+## Retail storefront update
+Expanded catalog with manufacturer photography from Logitech and PlayStation alongside the original DummyJSON sample catalog. Manufacturer source URLs are recorded per item in `database/catalog.json`. Prices and stock are sample data for the internship project, not retailer quotations. Re-seeding preserves existing stock quantities.
+
+Account tabs now target the actual profile form; labels and keyboard tab navigation are wired. Featured collection tabs filter products, category navigation provides direct links, and the catalog supports search, brand/category filters, price sorting and pagination. All shared pages use the retail design system in `css/retail.css`.

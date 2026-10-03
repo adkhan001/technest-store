@@ -901,5 +901,852 @@
     "arrival": 106,
     "deal": false,
     "source": "https://dummyjson.com/products/106"
+  },
+  {
+    "id": "iphone-5s",
+    "sku": "SMA-APP-IPH-121",
+    "name": "iPhone 5s",
+    "brand": "Apple",
+    "category": "Phones",
+    "price": 199.99,
+    "stock": 18,
+    "image": "assets/catalog/iphone-5s-1.webp",
+    "gallery": [
+      "assets/catalog/iphone-5s-1.webp",
+      "assets/catalog/iphone-5s-2.webp",
+      "assets/catalog/iphone-5s-3.webp"
+    ],
+    "fallback": "assets/catalog/iphone-5s-1.webp",
+    "desc": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPhone 5s",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 121,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/121"
+  },
+  {
+    "id": "iphone-6",
+    "sku": "SMA-APP-IPH-122",
+    "name": "iPhone 6",
+    "brand": "Apple",
+    "category": "Phones",
+    "price": 299.99,
+    "stock": 18,
+    "image": "assets/catalog/iphone-6-1.webp",
+    "gallery": [
+      "assets/catalog/iphone-6-1.webp",
+      "assets/catalog/iphone-6-2.webp",
+      "assets/catalog/iphone-6-3.webp"
+    ],
+    "fallback": "assets/catalog/iphone-6-1.webp",
+    "desc": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPhone 6",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 122,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/122"
+  },
+  {
+    "id": "oppo-k1",
+    "sku": "SMA-OPP-OPP-127",
+    "name": "Oppo K1",
+    "brand": "Oppo",
+    "category": "Phones",
+    "price": 299.99,
+    "stock": 18,
+    "image": "assets/catalog/oppo-k1-1.webp",
+    "gallery": [
+      "assets/catalog/oppo-k1-1.webp",
+      "assets/catalog/oppo-k1-2.webp",
+      "assets/catalog/oppo-k1-3.webp"
+    ],
+    "fallback": "assets/catalog/oppo-k1-1.webp",
+    "desc": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Oppo",
+      "Model": "Oppo K1",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 127,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/127"
+  },
+  {
+    "id": "realme-x",
+    "sku": "SMA-REA-REA-129",
+    "name": "Realme X",
+    "brand": "Realme",
+    "category": "Phones",
+    "price": 299.99,
+    "stock": 18,
+    "image": "assets/catalog/realme-x-1.webp",
+    "gallery": [
+      "assets/catalog/realme-x-1.webp",
+      "assets/catalog/realme-x-2.webp",
+      "assets/catalog/realme-x-3.webp"
+    ],
+    "fallback": "assets/catalog/realme-x-1.webp",
+    "desc": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Realme",
+      "Model": "Realme X",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 129,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/129"
+  },
+  {
+    "id": "samsung-galaxy-s7",
+    "sku": "SMA-SAM-SAM-131",
+    "name": "Samsung Galaxy S7",
+    "brand": "Samsung",
+    "category": "Phones",
+    "price": 299.99,
+    "stock": 18,
+    "image": "assets/catalog/samsung-galaxy-s7-1.webp",
+    "gallery": [
+      "assets/catalog/samsung-galaxy-s7-1.webp",
+      "assets/catalog/samsung-galaxy-s7-2.webp",
+      "assets/catalog/samsung-galaxy-s7-3.webp"
+    ],
+    "fallback": "assets/catalog/samsung-galaxy-s7-1.webp",
+    "desc": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Model": "Samsung Galaxy S7",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 131,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/131"
+  },
+  {
+    "id": "samsung-galaxy-s8",
+    "sku": "SMA-SAM-SAM-132",
+    "name": "Samsung Galaxy S8",
+    "brand": "Samsung",
+    "category": "Phones",
+    "price": 499.99,
+    "stock": 18,
+    "image": "assets/catalog/samsung-galaxy-s8-1.webp",
+    "gallery": [
+      "assets/catalog/samsung-galaxy-s8-1.webp",
+      "assets/catalog/samsung-galaxy-s8-2.webp",
+      "assets/catalog/samsung-galaxy-s8-3.webp"
+    ],
+    "fallback": "assets/catalog/samsung-galaxy-s8-1.webp",
+    "desc": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Model": "Samsung Galaxy S8",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 132,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/132"
+  },
+  {
+    "id": "vivo-v9",
+    "sku": "SMA-VIV-VIV-135",
+    "name": "Vivo V9",
+    "brand": "Vivo",
+    "category": "Phones",
+    "price": 299.99,
+    "stock": 18,
+    "image": "assets/catalog/vivo-v9-1.webp",
+    "gallery": [
+      "assets/catalog/vivo-v9-1.webp",
+      "assets/catalog/vivo-v9-2.webp",
+      "assets/catalog/vivo-v9-3.webp"
+    ],
+    "fallback": "assets/catalog/vivo-v9-1.webp",
+    "desc": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Vivo",
+      "Model": "Vivo V9",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 135,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/135"
+  },
+  {
+    "id": "vivo-x21",
+    "sku": "SMA-VIV-VIV-136",
+    "name": "Vivo X21",
+    "brand": "Vivo",
+    "category": "Phones",
+    "price": 499.99,
+    "stock": 18,
+    "image": "assets/catalog/vivo-x21-1.webp",
+    "gallery": [
+      "assets/catalog/vivo-x21-1.webp",
+      "assets/catalog/vivo-x21-2.webp",
+      "assets/catalog/vivo-x21-3.webp"
+    ],
+    "fallback": "assets/catalog/vivo-x21-1.webp",
+    "desc": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "features": [
+      "Phones collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "Vivo",
+      "Model": "Vivo X21",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 136,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/136"
+  },
+  {
+    "id": "monopod",
+    "sku": "MOB-TEC-MON-109",
+    "name": "Monopod",
+    "brand": "TechGear",
+    "category": "Accessories",
+    "price": 19.99,
+    "stock": 18,
+    "image": "assets/catalog/monopod-1.webp",
+    "gallery": [
+      "assets/catalog/monopod-1.webp",
+      "assets/catalog/monopod-2.webp"
+    ],
+    "fallback": "assets/catalog/monopod-1.webp",
+    "desc": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "features": [
+      "Accessories collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "TechGear",
+      "Model": "Monopod",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 109,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/109"
+  },
+  {
+    "id": "selfie-lamp-with-iphone",
+    "sku": "MOB-GAD-SEL-110",
+    "name": "Selfie Lamp with iPhone",
+    "brand": "GadgetMaster",
+    "category": "Accessories",
+    "price": 14.99,
+    "stock": 18,
+    "image": "assets/catalog/selfie-lamp-with-iphone-1.webp",
+    "gallery": [
+      "assets/catalog/selfie-lamp-with-iphone-1.webp"
+    ],
+    "fallback": "assets/catalog/selfie-lamp-with-iphone-1.webp",
+    "desc": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "features": [
+      "Accessories collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "GadgetMaster",
+      "Model": "Selfie Lamp with iPhone",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 110,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/110"
+  },
+  {
+    "id": "selfie-stick-monopod",
+    "sku": "MOB-SNA-SEL-111",
+    "name": "Selfie Stick Monopod",
+    "brand": "SnapTech",
+    "category": "Accessories",
+    "price": 12.99,
+    "stock": 18,
+    "image": "assets/catalog/selfie-stick-monopod-1.webp",
+    "gallery": [
+      "assets/catalog/selfie-stick-monopod-1.webp"
+    ],
+    "fallback": "assets/catalog/selfie-stick-monopod-1.webp",
+    "desc": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "features": [
+      "Accessories collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "SnapTech",
+      "Model": "Selfie Stick Monopod",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 111,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/111"
+  },
+  {
+    "id": "tv-studio-camera-pedestal",
+    "sku": "MOB-PRO-STU-112",
+    "name": "TV Studio Camera Pedestal",
+    "brand": "ProVision",
+    "category": "Cameras",
+    "price": 499.99,
+    "stock": 18,
+    "image": "assets/catalog/tv-studio-camera-pedestal-1.webp",
+    "gallery": [
+      "assets/catalog/tv-studio-camera-pedestal-1.webp"
+    ],
+    "fallback": "assets/catalog/tv-studio-camera-pedestal-1.webp",
+    "desc": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
+    "features": [
+      "Cameras collection",
+      "See gallery for the pictured product"
+    ],
+    "specs": {
+      "Brand": "ProVision",
+      "Model": "TV Studio Camera Pedestal",
+      "Category": "Cameras"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 112,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://dummyjson.com/products/112"
+  },
+  {
+    "id": "logitech-mx-master-3s",
+    "sku": "TN-LOGITECH-MX-MASTER-3S",
+    "name": "MX Master 3S",
+    "brand": "Logitech",
+    "category": "Accessories",
+    "price": 99.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-mx-master-3s-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-mx-master-3s-1.webp",
+      "assets/catalog/logitech-mx-master-3s-2.webp",
+      "assets/catalog/logitech-mx-master-3s-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-mx-master-3s-1.webp",
+    "desc": "Wireless mouse for a comfortable, precise desktop workflow.",
+    "features": [
+      "Wireless mouse",
+      "Ergonomic sculpted shape"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "MX Master 3S",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "Collection pick",
+    "arrival": 200,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitech.com/en-us/shop/p/mx-master-3s"
+  },
+  {
+    "id": "logitech-mx-keys-s",
+    "sku": "TN-LOGITECH-MX-KEYS-S",
+    "name": "MX Keys S",
+    "brand": "Logitech",
+    "category": "Accessories",
+    "price": 109.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-mx-keys-s-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-mx-keys-s-1.webp",
+      "assets/catalog/logitech-mx-keys-s-2.webp",
+      "assets/catalog/logitech-mx-keys-s-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-mx-keys-s-1.webp",
+    "desc": "A full-size wireless keyboard designed for a fluid desktop typing experience.",
+    "features": [
+      "Full-size keyboard",
+      "Wireless connectivity"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "MX Keys S",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 201,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitech.com/en-us/shop/p/mx-keys-s"
+  },
+  {
+    "id": "logitech-g502-hero",
+    "sku": "TN-LOGITECH-G502-HERO",
+    "name": "G502 HERO",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "price": 49.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-g502-hero-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-g502-hero-1.webp",
+      "assets/catalog/logitech-g502-hero-2.webp",
+      "assets/catalog/logitech-g502-hero-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-g502-hero-1.webp",
+    "desc": "A wired gaming mouse with programmable controls and adjustable weight.",
+    "features": [
+      "Wired gaming mouse",
+      "Programmable controls"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "G502 HERO",
+      "Category": "Gaming"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "Collection pick",
+    "arrival": 202,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitechg.com/en-us/products/gaming-mice/g502-hero-gaming-mouse.html"
+  },
+  {
+    "id": "sony-playstation-5",
+    "sku": "TN-SONY-PLAYSTATION-5",
+    "name": "PlayStation 5",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 499.99,
+    "stock": 24,
+    "image": "assets/catalog/sony-playstation-5-1.webp",
+    "gallery": [
+      "assets/catalog/sony-playstation-5-1.webp"
+    ],
+    "fallback": "assets/catalog/sony-playstation-5-1.webp",
+    "desc": "Discover the PlayStation 5 console and DualSense controller. Check the pictured model before choosing.",
+    "features": [
+      "PlayStation console",
+      "DualSense controller"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Model": "PlayStation 5",
+      "Category": "Gaming"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "Collection pick",
+    "arrival": 203,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.playstation.com/en-us/ps5/"
+  },
+  {
+    "id": "sony-dualsense",
+    "sku": "TN-SONY-DUALSENSE",
+    "name": "DualSense Wireless Controller",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 74.99,
+    "stock": 24,
+    "image": "assets/catalog/sony-dualsense-1.webp",
+    "gallery": [
+      "assets/catalog/sony-dualsense-1.webp"
+    ],
+    "fallback": "assets/catalog/sony-dualsense-1.webp",
+    "desc": "A PlayStation wireless controller with immersive haptic feedback and adaptive triggers.",
+    "features": [
+      "Haptic feedback",
+      "Adaptive triggers"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Model": "DualSense Wireless Controller",
+      "Category": "Gaming"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 204,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.playstation.com/en-us/accessories/dualsense-wireless-controller/"
+  },
+  {
+    "id": "sony-pulse-elite",
+    "sku": "TN-SONY-PULSE-ELITE",
+    "name": "PULSE Elite Wireless Headset",
+    "brand": "Sony",
+    "category": "Audio",
+    "price": 149.99,
+    "stock": 24,
+    "image": "assets/catalog/sony-pulse-elite-1.webp",
+    "gallery": [
+      "assets/catalog/sony-pulse-elite-1.webp"
+    ],
+    "fallback": "assets/catalog/sony-pulse-elite-1.webp",
+    "desc": "A wireless gaming headset with planar magnetic drivers and a retractable microphone.",
+    "features": [
+      "Wireless gaming audio",
+      "Retractable microphone"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Model": "PULSE Elite Wireless Headset",
+      "Category": "Audio"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 205,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.playstation.com/en-us/accessories/pulse-elite-wireless-headset/"
+  },
+  {
+    "id": "sony-playstation-portal",
+    "sku": "TN-SONY-PLAYSTATION-PORTAL",
+    "name": "PlayStation Portal Remote Player",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 199.99,
+    "stock": 24,
+    "image": "assets/catalog/sony-playstation-portal-1.webp",
+    "gallery": [
+      "assets/catalog/sony-playstation-portal-1.webp"
+    ],
+    "fallback": "assets/catalog/sony-playstation-portal-1.webp",
+    "desc": "An 8-inch handheld remote player for compatible PlayStation experiences. Network and service requirements apply.",
+    "features": [
+      "8-inch display",
+      "Remote play handheld"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Model": "PlayStation Portal Remote Player",
+      "Category": "Gaming"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 206,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.playstation.com/en-us/accessories/playstation-portal-remote-player/"
+  },
+  {
+    "id": "logitech-pebble-keys-2",
+    "sku": "TN-LOGITECH-PEBBLE-KEYS-2",
+    "name": "Pebble Keys 2 K380s",
+    "brand": "Logitech",
+    "category": "Accessories",
+    "price": 39.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-pebble-keys-2-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-pebble-keys-2-1.webp",
+      "assets/catalog/logitech-pebble-keys-2-2.webp",
+      "assets/catalog/logitech-pebble-keys-2-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-pebble-keys-2-1.webp",
+    "desc": "A compact wireless keyboard for a tidy, portable setup.",
+    "features": [
+      "Compact keyboard",
+      "Wireless connectivity"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "Pebble Keys 2 K380s",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 207,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitech.com/en-us/shop/p/pebble-keys-2"
+  },
+  {
+    "id": "logitech-brio-500",
+    "sku": "TN-LOGITECH-BRIO-500",
+    "name": "Brio 500 Webcam",
+    "brand": "Logitech",
+    "category": "Cameras",
+    "price": 129.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-brio-500-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-brio-500-1.webp",
+      "assets/catalog/logitech-brio-500-2.webp",
+      "assets/catalog/logitech-brio-500-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-brio-500-1.webp",
+    "desc": "A Full HD webcam for clearer meetings, presentations and everyday calls.",
+    "features": [
+      "Full HD video",
+      "Integrated privacy cover"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "Brio 500 Webcam",
+      "Category": "Cameras"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 208,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitech.com/en-us/shop/p/brio-500-webcam"
+  },
+  {
+    "id": "logitech-pro-x-headset",
+    "sku": "TN-LOGITECH-PRO-X-HEADSET",
+    "name": "PRO X Gaming Headset",
+    "brand": "Logitech",
+    "category": "Audio",
+    "price": 99.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-pro-x-headset-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-pro-x-headset-1.webp",
+      "assets/catalog/logitech-pro-x-headset-2.webp",
+      "assets/catalog/logitech-pro-x-headset-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-pro-x-headset-1.webp",
+    "desc": "A wired gaming headset designed for detailed sound and clear voice communication.",
+    "features": [
+      "Wired gaming headset",
+      "Detachable microphone"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "PRO X Gaming Headset",
+      "Category": "Audio"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 209,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitechg.com/en-us/products/gaming-audio/pro-x-gaming-headset-blue-voice-mic-tech.html"
+  },
+  {
+    "id": "logitech-g915",
+    "sku": "TN-LOGITECH-G915",
+    "name": "G915 Wireless Gaming Keyboard",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "price": 249.99,
+    "stock": 24,
+    "image": "assets/catalog/logitech-g915-1.webp",
+    "gallery": [
+      "assets/catalog/logitech-g915-1.webp",
+      "assets/catalog/logitech-g915-2.webp",
+      "assets/catalog/logitech-g915-3.webp"
+    ],
+    "fallback": "assets/catalog/logitech-g915-1.webp",
+    "desc": "A low-profile mechanical wireless keyboard built for gaming and everyday performance.",
+    "features": [
+      "Low-profile mechanical keyboard",
+      "Wireless connectivity"
+    ],
+    "specs": {
+      "Brand": "Logitech",
+      "Model": "G915 Wireless Gaming Keyboard",
+      "Category": "Gaming"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 210,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.logitechg.com/en-us/products/gaming-keyboards/g915-low-profile-wireless-mechanical-gaming-keyboard.html"
+  },
+  {
+    "id": "sony-playstation-vr2",
+    "sku": "TN-SONY-PLAYSTATION-VR2",
+    "name": "PlayStation VR2",
+    "brand": "Sony",
+    "category": "Gaming",
+    "price": 399.99,
+    "stock": 24,
+    "image": "assets/catalog/sony-playstation-vr2-1.webp",
+    "gallery": [
+      "assets/catalog/sony-playstation-vr2-1.webp"
+    ],
+    "fallback": "assets/catalog/sony-playstation-vr2-1.webp",
+    "desc": "A virtual reality headset with Sense controllers for compatible PlayStation VR2 games. Compatible hardware required.",
+    "features": [
+      "Virtual reality headset",
+      "Sense controllers"
+    ],
+    "specs": {
+      "Brand": "Sony",
+      "Model": "PlayStation VR2",
+      "Category": "Gaming"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "badge": "",
+    "arrival": 211,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "deal": false,
+    "source": "https://www.playstation.com/en-us/ps-vr2/"
   }
 ]
