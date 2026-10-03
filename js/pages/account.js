@@ -4,10 +4,11 @@ document.addEventListener('DOMContentLoaded',async()=>{
  const field=(id,label,type='text',attrs='')=>`<div class="field"><label for="${id}">${label}</label><input class="input" id="${id}" name="${id}" type="${type}" ${attrs}></div>`;
  function authForm(){
   if(status.textContent==='Loading your account…')message('');
+  if(TNAuthLinkError&&!TNAuth.session)message(TNAuthLinkError,true);
   const signup=mode==='signup',reset=mode==='reset',recovery=TNAuth.recovery;
   authView.classList.remove('hidden');accountView.classList.add('hidden');
   authView.innerHTML=`<div class="auth-layout"><div class="auth-story"><span class="eyebrow">YOUR NEXT DISCOVERY</span><h2>A space for<br>your kind of tech.</h2><p>Save your favourites. Keep your delivery details ready. Find all your orders in one place.</p><img src="assets/catalog/apple-airpods-max-silver-1.webp" alt="AirPods Max headphones"><span>PERSONAL. CONNECTED. YOURS.</span></div><div class="auth-card"><span class="eyebrow">${recovery?'ACCOUNT RECOVERY':signup?'JOIN TECHNEST':'WELCOME TO TECHNEST'}</span><h2>${recovery?'Choose a new password':reset?'Reset your password':signup?'Create your account':'Good to see you again.'}</h2><p class="muted">${recovery?'Set a new password for your account.':reset?'We’ll email you a link to reset your password.':signup?'Your profile and favourites, available wherever you sign in.':'Sign in to your personal TechNest space.'}</p>${!recovery&&!reset?`<div class="auth-tabs"><button type="button" data-mode="signin" class="${!signup?'active':''}">Sign in</button><button type="button" data-mode="signup" class="${signup?'active':''}">Create account</button></div>`:''}<form id="auth-form">${signup?`<div class="form-row">${field('auth-first','First name','text','required maxlength="100" autocomplete="given-name"')}${field('auth-last','Last name','text','required maxlength="100" autocomplete="family-name"')}</div>`:''}${!recovery?field('auth-email','Email address','email','required maxlength="254" autocomplete="email"'):''}${!reset?field('auth-password',recovery?'New password':'Password','password',`required ${signup||recovery?'minlength="8"':''} maxlength="128" autocomplete="${signup||recovery?'new-password':'current-password'}"`):''}${signup||recovery?field('auth-confirm','Confirm password','password','required minlength="8" maxlength="128" autocomplete="new-password"'):''}${signup?'<small class="muted">Use at least 8 characters. We’ll send an email to verify your account.</small>':''}<button class="btn btn-primary btn-block" type="submit">${recovery?'Save new password':reset?'Send reset link':signup?'Create account':'Sign in'} ↗</button></form>${!recovery?`<button class="auth-text-button" id="resend-confirmation" type="button">Resend verification email</button><button class="auth-text-button" data-mode="${reset?'signin':'reset'}">${reset?'Back to sign in':'Forgot your password?'}</button>`:''}<p class="auth-privacy">Your profile is private to your account.</p></div></div>`;
-  authView.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;message('');authForm()});
+  authView.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;TNAuthLinkError='';message('');authForm()});
   document.getElementById('resend-confirmation')?.addEventListener('click',async e=>{
    const input=document.getElementById('auth-email');if(!input.reportValidity())return;
    const button=e.currentTarget;button.disabled=true;message('Requesting a new verification email…');
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
    catch(error){message(error.message||'Unable to resend the verification email. Please try again later.',true)}finally{button.disabled=false}
   });
   document.getElementById('auth-form').onsubmit=async e=>{
-   e.preventDefault();const button=e.target.querySelector('[type=submit]');button.disabled=true;message('');
+   e.preventDefault();TNAuthLinkError='';const button=e.target.querySelector('[type=submit]');button.disabled=true;message('');
    const email=document.getElementById('auth-email')?.value.trim(),password=document.getElementById('auth-password')?.value;
    try{
     if((signup||recovery)&&password!==document.getElementById('auth-confirm').value)throw new Error('Your passwords don’t match.');
