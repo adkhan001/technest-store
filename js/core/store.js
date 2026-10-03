@@ -2,7 +2,7 @@ window.TNStore={
  key:'technest_guest_v5',data:{cart:{},wishlist:[],compare:[],profile:null,orders:[],recent:[],theme:'light'},
  switchUser(id){const key=id?'technest_user_v5_'+id:'technest_guest_v5';if(this.key===key)return;const guestCart=this.key==='technest_guest_v5'?this.data.cart:{};this.save();this.key=key;this.data={cart:{},wishlist:[],compare:[],profile:null,orders:[],recent:[],theme:document.documentElement.dataset.theme||'light'};this.load();if(id&&Object.keys(guestCart).length){this.data.cart={...guestCart,...this.data.cart};localStorage.removeItem('technest_guest_v5')}document.dispatchEvent(new CustomEvent('tn:state'))},
  load(){try{const x=JSON.parse(localStorage.getItem(this.key));if(x)this.data={...this.data,...x}}catch(e){} return this.data},
- save(){localStorage.setItem(this.key,JSON.stringify(this.data));document.dispatchEvent(new CustomEvent('tn:state'))},
+ save(){localStorage.setItem(this.key,JSON.stringify(this.key.startsWith('technest_user_v5_')?{...this.data,profile:null,orders:[]}:this.data));document.dispatchEvent(new CustomEvent('tn:state'))},
  addCart(id,qty=1,opts={}){const k=id+'|'+(opts.color||'Default')+'|'+(opts.storage||'Standard');const item=this.data.cart[k]||{id,qty:0,opts};item.qty=Math.min(TNU.product(id)?.stock||0,10,item.qty+qty);if(item.qty<=0)return;this.data.cart[k]=item;this.save()},
  setQty(key,qty){if(qty<=0)delete this.data.cart[key];else this.data.cart[key].qty=Math.min(qty,10,TNU.product(this.data.cart[key].id)?.stock||0);this.save()},removeCart(key){delete this.data.cart[key];this.save()},clearCart(){this.data.cart={};this.save()},
  cartCount(){return Object.values(this.data.cart).reduce((n,x)=>n+x.qty,0)},cartItems(){return Object.entries(this.data.cart).map(([key,v])=>({key,...v}))},
