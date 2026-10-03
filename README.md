@@ -60,3 +60,6 @@ Apply `database/auth.sql` once after the initial schema. Deploy the updated `sto
 The browser client is vendored from the official `@supabase/supabase-js` 2.57.4 UMD distribution (MIT), so sign-in does not depend on a third-party CDN at runtime. No service-role secret is included in the website.
 
 Validation: `node tests/account-isolation.cjs` checks separate user cart caches and prevents private profile/order data from being persisted in those caches. Integration verification used two isolated test accounts to confirm password sign-in, saved profile restoration, cross-user read/write denial, verified checkout ownership and private order history.
+
+
+Product studio (`admin.html`): the store owner reserved product administration for a verified account with the approved email. Apply `database/admin.sql` after `auth.sql`. The private allowlist cannot be edited or read by shoppers. Database and Storage RLS enforce admin privileges independently of the UI. Verified admins can add/edit/hide products and upload JPG/PNG/WebP photos up to 5 MB; photos are public storefront assets. Products are soft-hidden, never deleted. The approved user must register and confirm ownership of the email before administration is available. Configure custom SMTP to deliver verification/reset emails; no passwords are generated or shared by the app.
