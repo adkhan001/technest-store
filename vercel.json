@@ -1,8 +1,0 @@
-{
-  "buildCommand": "echo 'Static site - no build needed'",
-  "outputDirectory": ".",
-  "framework": "html",
-  "env": [],
-  "regions": ["iad1"],
-  "public": true
-}
