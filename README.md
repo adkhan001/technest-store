@@ -58,3 +58,5 @@ Email/password registration, sign-in and password recovery use Supabase Auth. Ea
 Apply `database/auth.sql` once after the initial schema. Deploy the updated `store-api` function with JWT verification enabled. Set the Supabase Auth Site URL and allowed redirect URL to `https://technest-store-xydb.vercel.app/account.html`. Public registrations require a working email delivery provider for confirmation and password recovery. Supabase's default email service is restricted; configure custom SMTP before opening registrations to other email addresses.
 
 The browser client is vendored from the official `@supabase/supabase-js` 2.57.4 UMD distribution (MIT), so sign-in does not depend on a third-party CDN at runtime. No service-role secret is included in the website.
+
+Validation: `node tests/account-isolation.cjs` checks separate user cart caches and prevents private profile/order data from being persisted in those caches. Integration verification used two isolated test accounts to confirm password sign-in, saved profile restoration, cross-user read/write denial, verified checkout ownership and private order history.
