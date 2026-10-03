@@ -1194,7 +1194,7 @@
     "id": "monopod",
     "sku": "MOB-TEC-MON-109",
     "name": "Monopod",
-    "brand": "TechGear",
+    "brand": "Generic",
     "category": "Accessories",
     "price": 19.99,
     "stock": 18,
@@ -1210,7 +1210,7 @@
       "See gallery for the pictured product"
     ],
     "specs": {
-      "Brand": "TechGear",
+      "Brand": "Generic",
       "Model": "Monopod",
       "Category": "Accessories"
     },
@@ -1229,7 +1229,7 @@
     "id": "selfie-lamp-with-iphone",
     "sku": "MOB-GAD-SEL-110",
     "name": "Selfie Lamp with iPhone",
-    "brand": "GadgetMaster",
+    "brand": "Generic",
     "category": "Accessories",
     "price": 14.99,
     "stock": 18,
@@ -1244,7 +1244,7 @@
       "See gallery for the pictured product"
     ],
     "specs": {
-      "Brand": "GadgetMaster",
+      "Brand": "Generic",
       "Model": "Selfie Lamp with iPhone",
       "Category": "Accessories"
     },
@@ -1263,7 +1263,7 @@
     "id": "selfie-stick-monopod",
     "sku": "MOB-SNA-SEL-111",
     "name": "Selfie Stick Monopod",
-    "brand": "SnapTech",
+    "brand": "Generic",
     "category": "Accessories",
     "price": 12.99,
     "stock": 18,
@@ -1278,7 +1278,7 @@
       "See gallery for the pictured product"
     ],
     "specs": {
-      "Brand": "SnapTech",
+      "Brand": "Generic",
       "Model": "Selfie Stick Monopod",
       "Category": "Accessories"
     },
@@ -1297,7 +1297,7 @@
     "id": "tv-studio-camera-pedestal",
     "sku": "MOB-PRO-STU-112",
     "name": "TV Studio Camera Pedestal",
-    "brand": "ProVision",
+    "brand": "Generic",
     "category": "Cameras",
     "price": 499.99,
     "stock": 18,
@@ -1312,7 +1312,7 @@
       "See gallery for the pictured product"
     ],
     "specs": {
-      "Brand": "ProVision",
+      "Brand": "Generic",
       "Model": "TV Studio Camera Pedestal",
       "Category": "Cameras"
     },
