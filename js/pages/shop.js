@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded',()=>{
+document.addEventListener('DOMContentLoaded',async()=>{await TNBackend.ready;
  const p=TNU.params(),state={q:(p.q||'').toLowerCase(),category:p.category||'',brand:p.brand||'',min:0,max:2500,rating:0,sort:'featured',page:1,view:'grid'},pageSize=24;
  document.getElementById('hero-count').textContent=TN_PRODUCTS.length;
  document.getElementById('category-shortcuts').innerHTML=`<a class="subnav-chip" href="shop.html">All ${TN_PRODUCTS.length}</a>`+TN_CATEGORIES.map(c=>`<a class="subnav-chip" href="shop.html?category=${encodeURIComponent(c)}">${c} ${TN_CATEGORY_COUNTS[c]}</a>`).join('');

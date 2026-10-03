@@ -1,48 +1,47 @@
-# TechNest Storefront
+# TechNest Store
 
-TechNest is a multi-page responsive electronics storefront built with HTML, CSS and vanilla JavaScript.
+A responsive electronics storefront using HTML, CSS, vanilla JavaScript, Supabase Postgres and a Supabase Edge Function. Deployed on Vercel from this repository.
 
-## Main pages
-- Home
-- Shop / catalog
-- Product details
-- Deals
-- New arrivals
-- Brands
-- Wishlist
-- Compare
-- Cart
-- Checkout
-- Order confirmation
-- Order tracking
-- Account
-- Support center
-- FAQ
-- About
-- Contact
-- Privacy / Terms / Accessibility
+## Working features
 
-## Catalog
-The catalog contains 54 products across nine categories. Every category contains between 20 and 30 items.
+- 25 real device models across six categories, with 66 locally hosted product photographs
+- Database-backed catalog, current stock, search, filters, product galleries and comparison
+- Browser-persisted cart, wishlist, profile and recently viewed products
+- Checkout with server-calculated totals, stock validation and atomic inventory updates
+- Database-persisted orders and private-key order tracking across devices
+- Contact messages and newsletter subscriptions saved to Supabase
+- Responsive storefront, dark mode, keyboard controls and reduced-motion support
 
-## Features
-- Responsive header, mega menu and mobile navigation
-- Hero carousel and promotional campaign banners
-- Search suggestions
-- Category, brand, rating and price filters
-- Pagination and grid/list catalog views
-- Product quick view
-- Detailed product pages with image galleries and specifications
-- Wishlist and comparison tools
-- Cart and quantity updates
-- Checkout, order confirmation and order tracking
-- Theme toggle
-- Newsletter and contact interactions
-- Responsive layouts for desktop, tablet and mobile
+This is an academic demonstration. Catalog prices and stock are sample values; no payments or shipments are processed. Product images and starting descriptions come from [DummyJSON](https://dummyjson.com/docs/products). No fabricated reviews or commercial sales claims are shown.
 
-## Run
-Open `index.html` directly, or serve the folder with any static web server.
+## Run locally
 
+```sh
+python -m http.server 8000
+```
 
-## Product imagery
-All catalog product image URLs are unique per product and use category-specific Unsplash Source queries. legacy random-photo feed has been removed entirely. Each product also has a unique local SVG fallback so a failed remote image can never collapse multiple cards onto the same fallback artwork.
+Visit `http://localhost:8000`. The site connects to its configured Supabase project. Localhost port 8000 is allowed by the function's CORS configuration.
+
+## Database
+
+- `products`: publicly readable active products; inventory changes only through the backend
+- `orders`: private customer details and order snapshots
+- `contact_messages`: private inquiries
+- `newsletter_subscribers`: private email subscriptions
+
+Schema: `database/schema.sql`; initial catalog: `database/seed.sql`.
+
+`supabase/functions/store-api/index.ts` validates checkout, tracking and form submissions. Only the server-side Edge Function has the service-role key. RLS and grants block public access to private tables. The checkout transaction recalculates prices and locks product rows before reducing stock.
+
+The frontend uses a public publishable key for the catalog and a legacy public anon JWT for the Edge Function gateway's JWT verification. Neither grants access to private tables. No secret or service-role key is committed.
+
+## Panel demonstration
+
+1. Open `system.html` to show the live catalog records and stock.
+2. Open a product, add it to the cart and place an order with fictitious delivery details.
+3. Note the order reference and private tracking key.
+4. Reload `system.html`: the product stock has decreased.
+5. Open Track Order and retrieve the saved order using the reference and key.
+6. Open Supabase Table Editor to show the `orders` record and product table.
+
+The Account page stores a delivery profile locally; it is not an authenticated customer account. Cart and wishlist persistence are local browser features. Order status reflects the database and does not simulate shipping progress.

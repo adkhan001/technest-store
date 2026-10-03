@@ -1,0 +1,905 @@
+[
+  {
+    "id": "asus-zenbook-pro-dual-screen-laptop",
+    "sku": "LAP-ASU-ASU-079",
+    "name": "ASUS Zenbook Pro Duo",
+    "brand": "Asus",
+    "category": "Laptops",
+    "price": 1799.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/asus-zenbook-pro-dual-screen-laptop-1.webp",
+    "gallery": [
+      "assets/catalog/asus-zenbook-pro-dual-screen-laptop-1.webp",
+      "assets/catalog/asus-zenbook-pro-dual-screen-laptop-2.webp",
+      "assets/catalog/asus-zenbook-pro-dual-screen-laptop-3.webp"
+    ],
+    "fallback": "assets/catalog/asus-zenbook-pro-dual-screen-laptop-1.webp",
+    "desc": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "features": [
+      "Laptops collection",
+      "Asus design"
+    ],
+    "specs": {
+      "Brand": "Asus",
+      "Model": "ASUS Zenbook Pro Duo",
+      "Category": "Laptops"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 79,
+    "deal": false,
+    "source": "https://dummyjson.com/products/79"
+  },
+  {
+    "id": "new-dell-xps-13-9300-laptop",
+    "sku": "LAP-DEL-DEL-082",
+    "name": "Dell XPS 13 9300 Laptop",
+    "brand": "Dell",
+    "category": "Laptops",
+    "price": 1499.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/new-dell-xps-13-9300-laptop-1.webp",
+    "gallery": [
+      "assets/catalog/new-dell-xps-13-9300-laptop-1.webp",
+      "assets/catalog/new-dell-xps-13-9300-laptop-2.webp",
+      "assets/catalog/new-dell-xps-13-9300-laptop-3.webp"
+    ],
+    "fallback": "assets/catalog/new-dell-xps-13-9300-laptop-1.webp",
+    "desc": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "features": [
+      "Laptops collection",
+      "Dell design"
+    ],
+    "specs": {
+      "Brand": "Dell",
+      "Model": "Dell XPS 13 9300 Laptop",
+      "Category": "Laptops"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 82,
+    "deal": false,
+    "source": "https://dummyjson.com/products/82"
+  },
+  {
+    "id": "huawei-matebook-x-pro",
+    "sku": "LAP-HUA-HUA-080",
+    "name": "Huawei MateBook X Pro",
+    "brand": "Huawei",
+    "category": "Laptops",
+    "price": 1399.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/huawei-matebook-x-pro-1.webp",
+    "gallery": [
+      "assets/catalog/huawei-matebook-x-pro-1.webp",
+      "assets/catalog/huawei-matebook-x-pro-2.webp",
+      "assets/catalog/huawei-matebook-x-pro-3.webp"
+    ],
+    "fallback": "assets/catalog/huawei-matebook-x-pro-1.webp",
+    "desc": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "features": [
+      "Laptops collection",
+      "Huawei design"
+    ],
+    "specs": {
+      "Brand": "Huawei",
+      "Model": "Huawei MateBook X Pro",
+      "Category": "Laptops"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 80,
+    "deal": false,
+    "source": "https://dummyjson.com/products/80"
+  },
+  {
+    "id": "lenovo-yoga-920",
+    "sku": "LAP-LEN-LEN-081",
+    "name": "Lenovo Yoga 920",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "price": 1099.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/lenovo-yoga-920-1.webp",
+    "gallery": [
+      "assets/catalog/lenovo-yoga-920-1.webp",
+      "assets/catalog/lenovo-yoga-920-2.webp",
+      "assets/catalog/lenovo-yoga-920-3.webp"
+    ],
+    "fallback": "assets/catalog/lenovo-yoga-920-1.webp",
+    "desc": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "features": [
+      "Laptops collection",
+      "Lenovo design"
+    ],
+    "specs": {
+      "Brand": "Lenovo",
+      "Model": "Lenovo Yoga 920",
+      "Category": "Laptops"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 81,
+    "deal": false,
+    "source": "https://dummyjson.com/products/81"
+  },
+  {
+    "id": "apple-macbook-pro-14-inch-space-grey",
+    "sku": "LAP-APP-APP-078",
+    "name": "MacBook Pro 14-inch",
+    "brand": "Apple",
+    "category": "Laptops",
+    "price": 1999.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "Staff pick",
+    "stock": 12,
+    "image": "assets/catalog/apple-macbook-pro-14-inch-space-grey-1.webp",
+    "gallery": [
+      "assets/catalog/apple-macbook-pro-14-inch-space-grey-1.webp",
+      "assets/catalog/apple-macbook-pro-14-inch-space-grey-2.webp",
+      "assets/catalog/apple-macbook-pro-14-inch-space-grey-3.webp"
+    ],
+    "fallback": "assets/catalog/apple-macbook-pro-14-inch-space-grey-1.webp",
+    "desc": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "features": [
+      "Liquid Retina XDR display",
+      "MagSafe charging",
+      "Built for work and creativity"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "MacBook Pro 14-inch",
+      "Category": "Laptops",
+      "Display": "14.2-inch Liquid Retina XDR",
+      "Processor": "Apple silicon",
+      "Ports": "HDMI, SDXC, MagSafe 3, Thunderbolt"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 78,
+    "deal": false,
+    "source": "https://dummyjson.com/products/78"
+  },
+  {
+    "id": "apple-magsafe-battery-pack",
+    "sku": "MOB-APP-APP-105",
+    "name": "Apple MagSafe Battery Pack",
+    "brand": "Apple",
+    "category": "Accessories",
+    "price": 99.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/apple-magsafe-battery-pack-1.webp",
+    "gallery": [
+      "assets/catalog/apple-magsafe-battery-pack-1.webp",
+      "assets/catalog/apple-magsafe-battery-pack-2.webp"
+    ],
+    "fallback": "assets/catalog/apple-magsafe-battery-pack-1.webp",
+    "desc": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "features": [
+      "Accessories collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "Apple MagSafe Battery Pack",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 105,
+    "deal": false,
+    "source": "https://dummyjson.com/products/105"
+  },
+  {
+    "id": "apple-iphone-charger",
+    "sku": "MOB-APP-APP-104",
+    "name": "Apple iPhone Charger",
+    "brand": "Apple",
+    "category": "Accessories",
+    "price": 19.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/apple-iphone-charger-1.webp",
+    "gallery": [
+      "assets/catalog/apple-iphone-charger-1.webp",
+      "assets/catalog/apple-iphone-charger-2.webp"
+    ],
+    "fallback": "assets/catalog/apple-iphone-charger-1.webp",
+    "desc": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "features": [
+      "Accessories collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "Apple iPhone Charger",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 104,
+    "deal": false,
+    "source": "https://dummyjson.com/products/104"
+  },
+  {
+    "id": "iphone-12-silicone-case-with-magsafe-plum",
+    "sku": "MOB-APP-IPH-108",
+    "name": "iPhone 12 Silicone Case with MagSafe Plum",
+    "brand": "Apple",
+    "category": "Accessories",
+    "price": 29.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/iphone-12-silicone-case-with-magsafe-plum-1.webp",
+    "gallery": [
+      "assets/catalog/iphone-12-silicone-case-with-magsafe-plum-1.webp",
+      "assets/catalog/iphone-12-silicone-case-with-magsafe-plum-2.webp",
+      "assets/catalog/iphone-12-silicone-case-with-magsafe-plum-3.webp"
+    ],
+    "fallback": "assets/catalog/iphone-12-silicone-case-with-magsafe-plum-1.webp",
+    "desc": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "features": [
+      "Accessories collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPhone 12 Silicone Case with MagSafe Plum",
+      "Category": "Accessories"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 108,
+    "deal": false,
+    "source": "https://dummyjson.com/products/108"
+  },
+  {
+    "id": "apple-airpods-max-silver",
+    "sku": "MOB-APP-APP-101",
+    "name": "AirPods Max \u2014 Silver",
+    "brand": "Apple",
+    "category": "Audio",
+    "price": 549.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "Staff pick",
+    "stock": 12,
+    "image": "assets/catalog/apple-airpods-max-silver-1.webp",
+    "gallery": [
+      "assets/catalog/apple-airpods-max-silver-1.webp"
+    ],
+    "fallback": "assets/catalog/apple-airpods-max-silver-1.webp",
+    "desc": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "features": [
+      "Active Noise Cancellation",
+      "Transparency mode",
+      "Spatial audio"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "AirPods Max \u2014 Silver",
+      "Category": "Audio",
+      "Type": "Over-ear headphones",
+      "Connectivity": "Bluetooth",
+      "Audio": "Active Noise Cancellation"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 101,
+    "deal": false,
+    "source": "https://dummyjson.com/products/101"
+  },
+  {
+    "id": "amazon-echo-plus",
+    "sku": "MOB-AMA-AMA-099",
+    "name": "Amazon Echo Plus",
+    "brand": "Amazon",
+    "category": "Audio",
+    "price": 99.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/amazon-echo-plus-1.webp",
+    "gallery": [
+      "assets/catalog/amazon-echo-plus-1.webp",
+      "assets/catalog/amazon-echo-plus-2.webp"
+    ],
+    "fallback": "assets/catalog/amazon-echo-plus-1.webp",
+    "desc": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "features": [
+      "Audio collection",
+      "Amazon design"
+    ],
+    "specs": {
+      "Brand": "Amazon",
+      "Model": "Amazon Echo Plus",
+      "Category": "Audio"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 99,
+    "deal": false,
+    "source": "https://dummyjson.com/products/99"
+  },
+  {
+    "id": "apple-airpods",
+    "sku": "MOB-APP-APP-100",
+    "name": "Apple AirPods",
+    "brand": "Apple",
+    "category": "Audio",
+    "price": 129.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/apple-airpods-1.webp",
+    "gallery": [
+      "assets/catalog/apple-airpods-1.webp",
+      "assets/catalog/apple-airpods-2.webp",
+      "assets/catalog/apple-airpods-3.webp"
+    ],
+    "fallback": "assets/catalog/apple-airpods-1.webp",
+    "desc": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "features": [
+      "Audio collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "Apple AirPods",
+      "Category": "Audio"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 100,
+    "deal": false,
+    "source": "https://dummyjson.com/products/100"
+  },
+  {
+    "id": "apple-homepod-mini-cosmic-grey",
+    "sku": "MOB-APP-APP-103",
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "brand": "Apple",
+    "category": "Audio",
+    "price": 99.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/apple-homepod-mini-cosmic-grey-1.webp",
+    "gallery": [
+      "assets/catalog/apple-homepod-mini-cosmic-grey-1.webp"
+    ],
+    "fallback": "assets/catalog/apple-homepod-mini-cosmic-grey-1.webp",
+    "desc": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "features": [
+      "Audio collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "Apple HomePod Mini Cosmic Grey",
+      "Category": "Audio"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 103,
+    "deal": false,
+    "source": "https://dummyjson.com/products/103"
+  },
+  {
+    "id": "beats-flex-wireless-earphones",
+    "sku": "MOB-BEA-BEA-107",
+    "name": "Beats Flex Wireless Earphones",
+    "brand": "Beats",
+    "category": "Audio",
+    "price": 49.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/beats-flex-wireless-earphones-1.webp",
+    "gallery": [
+      "assets/catalog/beats-flex-wireless-earphones-1.webp"
+    ],
+    "fallback": "assets/catalog/beats-flex-wireless-earphones-1.webp",
+    "desc": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+    "features": [
+      "Audio collection",
+      "Beats design"
+    ],
+    "specs": {
+      "Brand": "Beats",
+      "Model": "Beats Flex Wireless Earphones",
+      "Category": "Audio"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 107,
+    "deal": false,
+    "source": "https://dummyjson.com/products/107"
+  },
+  {
+    "id": "oppo-a57",
+    "sku": "SMA-OPP-OPP-125",
+    "name": "Oppo A57",
+    "brand": "Oppo",
+    "category": "Phones",
+    "price": 249.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/oppo-a57-1.webp",
+    "gallery": [
+      "assets/catalog/oppo-a57-1.webp",
+      "assets/catalog/oppo-a57-2.webp",
+      "assets/catalog/oppo-a57-3.webp"
+    ],
+    "fallback": "assets/catalog/oppo-a57-1.webp",
+    "desc": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "features": [
+      "Phones collection",
+      "Oppo design"
+    ],
+    "specs": {
+      "Brand": "Oppo",
+      "Model": "Oppo A57",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 125,
+    "deal": false,
+    "source": "https://dummyjson.com/products/125"
+  },
+  {
+    "id": "oppo-f19-pro-plus",
+    "sku": "SMA-OPP-OPP-126",
+    "name": "Oppo F19 Pro Plus",
+    "brand": "Oppo",
+    "category": "Phones",
+    "price": 399.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/oppo-f19-pro-plus-1.webp",
+    "gallery": [
+      "assets/catalog/oppo-f19-pro-plus-1.webp",
+      "assets/catalog/oppo-f19-pro-plus-2.webp",
+      "assets/catalog/oppo-f19-pro-plus-3.webp"
+    ],
+    "fallback": "assets/catalog/oppo-f19-pro-plus-1.webp",
+    "desc": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "features": [
+      "Phones collection",
+      "Oppo design"
+    ],
+    "specs": {
+      "Brand": "Oppo",
+      "Model": "Oppo F19 Pro Plus",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 126,
+    "deal": false,
+    "source": "https://dummyjson.com/products/126"
+  },
+  {
+    "id": "realme-c35",
+    "sku": "SMA-REA-REA-128",
+    "name": "Realme C35",
+    "brand": "Realme",
+    "category": "Phones",
+    "price": 149.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/realme-c35-1.webp",
+    "gallery": [
+      "assets/catalog/realme-c35-1.webp",
+      "assets/catalog/realme-c35-2.webp",
+      "assets/catalog/realme-c35-3.webp"
+    ],
+    "fallback": "assets/catalog/realme-c35-1.webp",
+    "desc": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "features": [
+      "Phones collection",
+      "Realme design"
+    ],
+    "specs": {
+      "Brand": "Realme",
+      "Model": "Realme C35",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 128,
+    "deal": false,
+    "source": "https://dummyjson.com/products/128"
+  },
+  {
+    "id": "realme-xt",
+    "sku": "SMA-REA-REA-130",
+    "name": "Realme XT",
+    "brand": "Realme",
+    "category": "Phones",
+    "price": 349.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/realme-xt-1.webp",
+    "gallery": [
+      "assets/catalog/realme-xt-1.webp",
+      "assets/catalog/realme-xt-2.webp",
+      "assets/catalog/realme-xt-3.webp"
+    ],
+    "fallback": "assets/catalog/realme-xt-1.webp",
+    "desc": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "features": [
+      "Phones collection",
+      "Realme design"
+    ],
+    "specs": {
+      "Brand": "Realme",
+      "Model": "Realme XT",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 130,
+    "deal": false,
+    "source": "https://dummyjson.com/products/130"
+  },
+  {
+    "id": "samsung-galaxy-s10",
+    "sku": "SMA-SAM-SAM-133",
+    "name": "Samsung Galaxy S10",
+    "brand": "Samsung",
+    "category": "Phones",
+    "price": 699.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/samsung-galaxy-s10-1.webp",
+    "gallery": [
+      "assets/catalog/samsung-galaxy-s10-1.webp",
+      "assets/catalog/samsung-galaxy-s10-2.webp",
+      "assets/catalog/samsung-galaxy-s10-3.webp"
+    ],
+    "fallback": "assets/catalog/samsung-galaxy-s10-1.webp",
+    "desc": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "features": [
+      "Phones collection",
+      "Samsung design"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Model": "Samsung Galaxy S10",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 133,
+    "deal": false,
+    "source": "https://dummyjson.com/products/133"
+  },
+  {
+    "id": "vivo-s1",
+    "sku": "SMA-VIV-VIV-134",
+    "name": "Vivo S1",
+    "brand": "Vivo",
+    "category": "Phones",
+    "price": 249.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/vivo-s1-1.webp",
+    "gallery": [
+      "assets/catalog/vivo-s1-1.webp",
+      "assets/catalog/vivo-s1-2.webp",
+      "assets/catalog/vivo-s1-3.webp"
+    ],
+    "fallback": "assets/catalog/vivo-s1-1.webp",
+    "desc": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "features": [
+      "Phones collection",
+      "Vivo design"
+    ],
+    "specs": {
+      "Brand": "Vivo",
+      "Model": "Vivo S1",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 134,
+    "deal": false,
+    "source": "https://dummyjson.com/products/134"
+  },
+  {
+    "id": "iphone-13-pro",
+    "sku": "SMA-APP-IPH-123",
+    "name": "iPhone 13 Pro",
+    "brand": "Apple",
+    "category": "Phones",
+    "price": 1099.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "Staff pick",
+    "stock": 12,
+    "image": "assets/catalog/iphone-13-pro-1.webp",
+    "gallery": [
+      "assets/catalog/iphone-13-pro-1.webp",
+      "assets/catalog/iphone-13-pro-2.webp",
+      "assets/catalog/iphone-13-pro-3.webp"
+    ],
+    "fallback": "assets/catalog/iphone-13-pro-1.webp",
+    "desc": "The iPhone 13 Pro is a versatile smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "features": [
+      "ProMotion display",
+      "A15 Bionic chip",
+      "Triple-camera system"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPhone 13 Pro",
+      "Category": "Phones",
+      "Display": "6.1-inch Super Retina XDR",
+      "Processor": "Apple A15 Bionic",
+      "Camera": "Triple 12MP camera system"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 123,
+    "deal": false,
+    "source": "https://dummyjson.com/products/123"
+  },
+  {
+    "id": "iphone-x",
+    "sku": "SMA-APP-IPH-124",
+    "name": "iPhone X",
+    "brand": "Apple",
+    "category": "Phones",
+    "price": 899.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/iphone-x-1.webp",
+    "gallery": [
+      "assets/catalog/iphone-x-1.webp",
+      "assets/catalog/iphone-x-2.webp",
+      "assets/catalog/iphone-x-3.webp"
+    ],
+    "fallback": "assets/catalog/iphone-x-1.webp",
+    "desc": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "features": [
+      "Phones collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPhone X",
+      "Category": "Phones"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 124,
+    "deal": false,
+    "source": "https://dummyjson.com/products/124"
+  },
+  {
+    "id": "samsung-galaxy-tab-s8-plus-grey",
+    "sku": "TAB-SAM-SAM-160",
+    "name": "Samsung Galaxy Tab S8 Plus Grey",
+    "brand": "Samsung",
+    "category": "Tablets",
+    "price": 599.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "Staff pick",
+    "stock": 12,
+    "image": "assets/catalog/samsung-galaxy-tab-s8-plus-grey-1.webp",
+    "gallery": [
+      "assets/catalog/samsung-galaxy-tab-s8-plus-grey-1.webp",
+      "assets/catalog/samsung-galaxy-tab-s8-plus-grey-2.webp",
+      "assets/catalog/samsung-galaxy-tab-s8-plus-grey-3.webp"
+    ],
+    "fallback": "assets/catalog/samsung-galaxy-tab-s8-plus-grey-1.webp",
+    "desc": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "features": [
+      "Tablets collection",
+      "Samsung design"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Model": "Samsung Galaxy Tab S8 Plus Grey",
+      "Category": "Tablets"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 160,
+    "deal": false,
+    "source": "https://dummyjson.com/products/160"
+  },
+  {
+    "id": "samsung-galaxy-tab-white",
+    "sku": "TAB-SAM-SAM-161",
+    "name": "Samsung Galaxy Tab White",
+    "brand": "Samsung",
+    "category": "Tablets",
+    "price": 349.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/samsung-galaxy-tab-white-1.webp",
+    "gallery": [
+      "assets/catalog/samsung-galaxy-tab-white-1.webp",
+      "assets/catalog/samsung-galaxy-tab-white-2.webp",
+      "assets/catalog/samsung-galaxy-tab-white-3.webp"
+    ],
+    "fallback": "assets/catalog/samsung-galaxy-tab-white-1.webp",
+    "desc": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "features": [
+      "Tablets collection",
+      "Samsung design"
+    ],
+    "specs": {
+      "Brand": "Samsung",
+      "Model": "Samsung Galaxy Tab White",
+      "Category": "Tablets"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 161,
+    "deal": false,
+    "source": "https://dummyjson.com/products/161"
+  },
+  {
+    "id": "ipad-mini-2021-starlight",
+    "sku": "TAB-APP-IPA-159",
+    "name": "iPad Mini 2021 Starlight",
+    "brand": "Apple",
+    "category": "Tablets",
+    "price": 499.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/ipad-mini-2021-starlight-1.webp",
+    "gallery": [
+      "assets/catalog/ipad-mini-2021-starlight-1.webp",
+      "assets/catalog/ipad-mini-2021-starlight-2.webp",
+      "assets/catalog/ipad-mini-2021-starlight-3.webp"
+    ],
+    "fallback": "assets/catalog/ipad-mini-2021-starlight-1.webp",
+    "desc": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "features": [
+      "Tablets collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "iPad Mini 2021 Starlight",
+      "Category": "Tablets"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 159,
+    "deal": false,
+    "source": "https://dummyjson.com/products/159"
+  },
+  {
+    "id": "apple-watch-series-4-gold",
+    "sku": "MOB-APP-APP-106",
+    "name": "Apple Watch Series 4 Gold",
+    "brand": "Apple",
+    "category": "Wearables",
+    "price": 349.99,
+    "oldPrice": null,
+    "rating": 0,
+    "reviews": 0,
+    "badge": "",
+    "stock": 12,
+    "image": "assets/catalog/apple-watch-series-4-gold-1.webp",
+    "gallery": [
+      "assets/catalog/apple-watch-series-4-gold-1.webp",
+      "assets/catalog/apple-watch-series-4-gold-2.webp",
+      "assets/catalog/apple-watch-series-4-gold-3.webp"
+    ],
+    "fallback": "assets/catalog/apple-watch-series-4-gold-1.webp",
+    "desc": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "features": [
+      "Wearables collection",
+      "Apple design"
+    ],
+    "specs": {
+      "Brand": "Apple",
+      "Model": "Apple Watch Series 4 Gold",
+      "Category": "Wearables"
+    },
+    "colors": [
+      "As pictured"
+    ],
+    "arrival": 106,
+    "deal": false,
+    "source": "https://dummyjson.com/products/106"
+  }
+]
