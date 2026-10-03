@@ -23,7 +23,7 @@ TechNest is a multi-page responsive electronics storefront built with HTML, CSS 
 - Privacy / Terms / Accessibility
 
 ## Catalog
-The catalog contains 229 products across nine categories. Every category contains between 20 and 30 items.
+The catalog contains 54 products across nine categories. Every category contains between 20 and 30 items.
 
 ## Features
 - Responsive header, mega menu and mobile navigation
