@@ -1,3 +1,5 @@
+// Capture confirmation errors before the SDK consumes the redirect fragment.
+window.TNAuthLinkError=(()=>{const params=new URLSearchParams(location.hash.slice(1));const code=params.get('error_code');return code==='otp_expired'||params.get('error')==='access_denied'?'This confirmation link is invalid or expired. Request a new verification email and open only the newest link.':''})();
 /* Supabase manages passwords and sessions. RLS protects each user's private records. */
 window.TNAuth={
  client:supabase.createClient(TNBackend.url,TNBackend.key,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}}),
